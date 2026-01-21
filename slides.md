@@ -181,8 +181,15 @@ layout: section
 # quando usare npm workspace
 
 ---
+layout: two-cols-header
+---
 
 # quando usare npm workspace
+
+::left::
+
+<v-click>
+
 ## quando è ok
 
 - librerie condivise
@@ -190,15 +197,20 @@ layout: section
 - piccoli / medi monorepo
 - team ridotti
 
----
+</v-click>
 
-# quando usare npm workspace
+::right::
+
+<v-click>
+
 ## quando NON basta
 
 - build complesse
 - pipeline ottimizzate
 - task dipendenti
 - scaling team e repo
+
+</v-click>
 
 ---
 
@@ -252,11 +264,21 @@ layout: section
 # processo decisionale
 ## strategia consigliata
 
-1. parti con npm workspaces
-2. valuta complessità reale
-3. introduci Turborepo o Nx **solo se serve**
+<v-clicks>
+
+- parti con npm workspaces
+ 
+- valuta complessità reale
+
+- introduci Turborepo o Nx **solo se serve**
+
+</v-clicks>
+
+<v-click>
 
 > "Start simple, scale when needed"
+
+</v-click>
 
 ---
 
