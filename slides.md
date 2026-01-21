@@ -36,6 +36,11 @@ layout: section
 # monorepo
 
 ---
+layout: image-right
+
+# the image source
+image: /images/what.gif
+---
 
 # monorepo
 ## Cos'è un monorepo
