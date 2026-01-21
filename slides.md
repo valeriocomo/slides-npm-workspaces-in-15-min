@@ -56,7 +56,10 @@ un **monorepo** è un singolo repository che contiene:
 </v-clicks>
 
 ---
-layout: default
+layout: image-right
+
+# the image source
+image: /images/why.gif
 ---
 
 # monorepo
