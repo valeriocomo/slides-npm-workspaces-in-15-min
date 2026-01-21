@@ -84,6 +84,8 @@ trasition: slide-down
 # npm workspaces
 
 ---
+layout: center
+---
 
 # npm workspaces
 
