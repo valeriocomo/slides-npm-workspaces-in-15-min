@@ -249,6 +249,9 @@ layout: two-cols-header
 # PROs & CONs
 
 ::left::
+
+<v-click>
+
 ## PROs
 
 - zero setup extra
@@ -257,7 +260,12 @@ layout: two-cols-header
 - nessun lock-in
 - facile da spiegare
 
+</v-click>
+
+
 ::right::
+
+<v-click>
 
 ## CONs
 
@@ -265,6 +273,8 @@ layout: two-cols-header
 - niente parallelismo intelligente
 - niente affected commands
 - scaling limitato
+
+</v-click>
 
 ---
 layout: section
