@@ -143,6 +143,8 @@ feature **nativa di npm**
 
 
 ---
+layout: center
+---
 
 # npm workspaces
 ## cosa fa
@@ -173,6 +175,8 @@ oppure:
 npm -w packages/lib run build
 ```
 
+---
+layout: center
 ---
 
 # npm workspaces
