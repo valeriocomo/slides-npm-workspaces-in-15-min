@@ -322,13 +322,3 @@ transition: slide-down
 src: ./pages/01-qa.md
 transition: slide-down
 ---
-
----
-
-## risorse
-
-- npm docs: workspaces
-- turborepo.org
-- nx.dev
-
-
