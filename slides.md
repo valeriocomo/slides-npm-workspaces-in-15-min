@@ -31,6 +31,7 @@ transition: fade
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # monorepo
@@ -73,8 +74,6 @@ image: /images/why.gif
 - meno _copy&paste_, più riuso
 
 </v-clicks>
-
-
 
 ---
 layout: section
@@ -190,6 +189,7 @@ layout: center
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # quando usare npm workspace
@@ -242,6 +242,7 @@ layout: two-cols-header
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # PROs & CONs
@@ -282,6 +283,7 @@ layout: two-cols-header
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # processo decisionale
@@ -318,6 +320,7 @@ layout: section
 
 ---
 src: ./pages/01-qa.md
+transition: slide-down
 ---
 
 ---
