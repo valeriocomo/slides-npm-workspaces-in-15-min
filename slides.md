@@ -243,8 +243,12 @@ layout: section
 # PROs & CONs
 
 ---
+layout: two-cols-header
+---
 
 # PROs & CONs
+
+::left::
 ## PROs
 
 - zero setup extra
@@ -253,9 +257,8 @@ layout: section
 - nessun lock-in
 - facile da spiegare
 
----
+::right::
 
-# PROs & CONs
 ## CONs
 
 - niente caching
