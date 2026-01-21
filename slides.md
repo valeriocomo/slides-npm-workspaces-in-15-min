@@ -31,10 +31,16 @@ transition: fade
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # monorepo
 
+---
+layout: image-right
+
+# the image source
+image: /images/what.gif
 ---
 
 # monorepo
@@ -51,7 +57,10 @@ un **monorepo** è un singolo repository che contiene:
 </v-clicks>
 
 ---
-layout: default
+layout: image-right
+
+# the image source
+image: /images/why.gif
 ---
 
 # monorepo
@@ -66,8 +75,6 @@ layout: default
 
 </v-clicks>
 
-
-
 ---
 layout: section
 trasition: slide-down
@@ -75,6 +82,8 @@ trasition: slide-down
 
 # npm workspaces
 
+---
+layout: center
 ---
 
 # npm workspaces
@@ -133,6 +142,8 @@ feature **nativa di npm**
 
 
 ---
+layout: center
+---
 
 # npm workspaces
 ## cosa fa
@@ -164,6 +175,8 @@ npm -w packages/lib run build
 ```
 
 ---
+layout: center
+---
 
 # npm workspaces
 ## dependency graph (semplice)
@@ -176,13 +189,21 @@ npm -w packages/lib run build
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # quando usare npm workspace
 
 ---
+layout: two-cols-header
+---
 
 # quando usare npm workspace
+
+::left::
+
+<v-click>
+
 ## quando è ok
 
 - librerie condivise
@@ -190,15 +211,20 @@ layout: section
 - piccoli / medi monorepo
 - team ridotti
 
----
+</v-click>
 
-# quando usare npm workspace
+::right::
+
+<v-click>
+
 ## quando NON basta
 
 - build complesse
 - pipeline ottimizzate
 - task dipendenti
 - scaling team e repo
+
+</v-click>
 
 ---
 
@@ -216,13 +242,21 @@ layout: section
 
 ---
 layout: section
+transition: slide-down
 ---
 
 # PROs & CONs
 
 ---
+layout: two-cols-header
+---
 
 # PROs & CONs
+
+::left::
+
+<v-click>
+
 ## PROs
 
 - zero setup extra
@@ -231,9 +265,13 @@ layout: section
 - nessun lock-in
 - facile da spiegare
 
----
+</v-click>
 
-# PROs & CONs
+
+::right::
+
+<v-click>
+
 ## CONs
 
 - niente caching
@@ -241,8 +279,11 @@ layout: section
 - niente affected commands
 - scaling limitato
 
+</v-click>
+
 ---
 layout: section
+transition: slide-down
 ---
 
 # processo decisionale
@@ -252,11 +293,21 @@ layout: section
 # processo decisionale
 ## strategia consigliata
 
-1. parti con npm workspaces
-2. valuta complessità reale
-3. introduci Turborepo o Nx **solo se serve**
+<v-clicks>
+
+- parti con npm workspaces
+ 
+- valuta complessità reale
+
+- introduci Turborepo o Nx **solo se serve**
+
+</v-clicks>
+
+<v-click>
 
 > "Start simple, scale when needed"
+
+</v-click>
 
 ---
 
@@ -269,14 +320,5 @@ layout: section
 
 ---
 src: ./pages/01-qa.md
+transition: slide-down
 ---
-
----
-
-## risorse
-
-- npm docs: workspaces
-- turborepo.org
-- nx.dev
-
-
