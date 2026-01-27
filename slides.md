@@ -192,13 +192,13 @@ layout: section
 transition: slide-down
 ---
 
-# quando usare npm workspace
+# quando usare npm workspaces
 
 ---
 layout: two-cols-header
 ---
 
-# quando usare npm workspace
+# quando usare npm workspaces
 
 ::left::
 
@@ -228,7 +228,7 @@ layout: two-cols-header
 
 ---
 
-# quando usare npm workspace
+# quando usare npm workspaces
 ## npm vs Turborepo vs Nx
 
 | Feature | npm workspaces | Turborepo | Nx |
