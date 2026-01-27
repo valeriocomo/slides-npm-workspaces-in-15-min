@@ -12,4 +12,4 @@ transition: slide-up
 
 🎤 Speaker
 
-<skill-icons-angular-light /> Developing web app with Angular since 2016
+<skill-icons-javascript /> In ❤️ with NodeJs since 201X
