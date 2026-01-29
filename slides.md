@@ -107,7 +107,10 @@ feature **nativa di npm**
 <v-click>
 
 ### package.json
-```json
+
+````md magic-move
+
+```json {|3,3|4-7|}
 {
   "name": "my-awesome-project",
   "private": true,
@@ -118,13 +121,17 @@ feature **nativa di npm**
 }
 ```
 
+````
+
 </v-click>
 
 <v-click>
 
 ### packages/lib/package.json
 
-```json
+````md magic-move
+
+```json {|2|4-6|7-10|}
 {
   "name": "@my-awesome-project/lib",
   "version": "0.4.3",
@@ -133,11 +140,12 @@ feature **nativa di npm**
   },
   "dependencies": {
       "@my-awesome-project/config": "workspace:*",
-      "@my-awesome-project/ui": "1.2.0",
+      "@my-awesome-project/ui": "workspace:1.2.0",
   }
 }
 ```
 
+````
 </v-click>
 
 
